@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+<link rel="stylesheet" href="style.css">
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.cards {
+  width: 90%;
+  max-width: 700px;
+  margin: 70px auto;
+
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.card p {
+  margin-bottom: 20px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.card button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #0056b3;
+}
+
+
+</style>
+</head>
+<body>
+    
+  <div class="cards">
+
+    <div class="card">
+      <h2>Card One</h2>
+      <button>Read More</button>
+    </div>
+
+    <div class="card">
+      <h2>Card Two</h2>
+      <button>Read More</button>
+    </div>
+
+  </div>
+</body>
+</html>
